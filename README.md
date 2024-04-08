@@ -3,10 +3,15 @@
 1. Clone das Repository \
 `git clone https://github.com/siebertdaniel/pb2-example.git` 
 
-2. Installiere die Dependencies 
+2. Installiere poetry via pip
+`pip install poetry` (bevorzugt)
+oder
+`https://python-poetry.org/docs/#installing-with-the-official-installer`
+
+3. Installiere die Dependencies 
 `poetry install` 
 
-3. Start coding 
+4. Start coding 
 
 ### Szenario
 Sie sind Teil der Entwicklungsabteilung der IT Enterprises GmbH.\
