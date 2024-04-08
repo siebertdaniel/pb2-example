@@ -3,7 +3,7 @@
 1. Clone das Repository \
 `git clone https://github.com/siebertdaniel/pb2-example.git` 
 
-2. Installier die Dependencies 
+2. Installiere die Dependencies 
 `poetry install` 
 
 3. Start coding 

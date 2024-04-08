@@ -1,7 +1,9 @@
 # Imports hier
+import os
+from dotenv import load_dotenv
 
 # Lädt die prod.env Datei
-load_dotenv("./prod.env")
+load_dotenv("prod.env")
 API_KEY = os.getenv("API_KEY")
 
 # Beispiel URL
