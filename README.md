@@ -12,6 +12,7 @@ oder
 `poetry install` 
 
 4. Start coding 
+`poetry run python main.py`
 
 ### Szenario
 Sie sind Teil der Entwicklungsabteilung der IT Enterprises GmbH.\
@@ -21,13 +22,16 @@ Sie sollen ein Script erstellen, welches ein Template mit Wetterdaten füllt. Di
 Danach holen sich die Fernsehsender die Dateien auf einem Server der IT Enterprises ab. \
 Über CLI-Argumente sollen die Städte mitgegeben werden, für welche eine Grafik erstellt werden soll.\
 z.B.: \
-`$ python3 script.py Hamburg Munich Москва`
+`$ poetry run python main.py Hamburg Munich Москва`
 
-Die Outputdateien sollen die Stadt und den aktuellen Tag als Dateinamen haben. \
+Die Outputdateien sollen die Stadt und den aktuellen Tag als Dateinamen enthalten. \
 z.B.: \
 `out-Hamburg-2024-04-05.png` \
 `out-Munich-2024-04-05.png` \
 `out-Москва-2024-04-05.png`
+
+Zum Manipulieren der Bild-Datei kann die Library "Pillow" verwendet werden. \
+Link zur Dokumentation: https://pillow.readthedocs.io/en/stable/
 
 ### Arbeitsaufträge
 - API abfragen
